@@ -1414,7 +1414,7 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   width: 20px;
   height: 2px;
   color: #000;
@@ -1653,8 +1653,8 @@ input[type="text"] {
 .js .animate-box {
   opacity: 0;
 }
-@media only screen (max-device-width: 1024px) {
+/* @media only screen (max-device-width: 1024px) {
   .head-spline {
     display: none !important;
   }
-}
+} */
